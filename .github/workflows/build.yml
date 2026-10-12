@@ -12,8 +12,12 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
-    - name: Restore dependencies
-      run: dotnet restore RaceDay.API.sln
+        dotnet-version: |
+          6.0.x
+          7.0.x
+          8.0.x
+          9.0.x
+    - name: Restore
+      run: dotnet restore
     - name: Build
-      run: dotnet build RaceDay.API.sln --no-restore
+      run: dotnet build --no-restore
