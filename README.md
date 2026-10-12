@@ -9,7 +9,7 @@
 2. Open RaceDay.API.sln in Visual Studio 2022
 3. Update connection string in appsettings.json
 4. Run Update-Database in Package Manager Console
-5. Press F5 to run. Swagger at https://localhost:5001/swagger
+5. Press F5 to run. Swagger opens automatically at /swagger
 6. .NET 8 SDK required
 
 ## CI/CD
