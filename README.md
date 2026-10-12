@@ -5,10 +5,10 @@
 2. **Organizer (Admin):** Can create/update/delete races, manage registrations, publish results. Full access.
 
 ## Setup and Run Instructions
-1. Clone repo: git clone https://github.com/TshegofatsoMell/P2-PROG6212..git
-2. Open RaceDay.API.sln in Visual Studio 2022
-3. Update connection string in appsettings.json
-4. Run Update-Database in Package Manager Console
+1. Clone repo: `git clone https://github.com/TshegofatsoMe11/P2-PROG6212.git`
+2. Open `RaceDay.API.sln` in Visual Studio 2022
+3. Update connection string in `appsettings.json`
+4. Run `Update-Database` in Package Manager Console
 5. Press F5 to run. Swagger opens automatically at /swagger
 6. .NET 8 SDK required
 
@@ -16,4 +16,4 @@
 GitHub Actions used for CI/CD. Build runs on push to main branch. Screenshot of Actions tab will be added.
 
 ## YouTube VIDEO PRESENTATION LINK
-Link: https://youtu.be/j-7NXLHWKOU
+Link: https://youtu.be/j-7NXLHWkOU
