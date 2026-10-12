@@ -44,11 +44,11 @@ public class RaceEvent
 {
     public int Id { get; set; }
     [Required] public string Name { get; set; } = "";
-    public string Description { get; set; } = ""; // ADDED
+    public string Description { get; set; } = ""; 
     public string Location { get; set; } = "Pretoria";
     public DateTime Date { get; set; } = DateTime.Now.AddDays(7);
-    public double Distance { get; set; } = 10; // ADDED - 10km,21km
-    public string EventType { get; set; } = "run"; // ADDED - run,walk,cycle
+    public double Distance { get; set; } = 10; 
+    public string EventType { get; set; } = "run"; 
     public int MaxParticipants { get; set; } = 100;
     public decimal Fee { get; set; } = 150;
     public string Status { get; set; } = "Upcoming";
@@ -68,7 +68,7 @@ public class Category
 {
     public int Id { get; set; }
     public int RaceEventId { get; set; }
-    [Required] public string Name { get; set; } = ""; // Under 20, Senior, 10km
+    [Required] public string Name { get; set; } = ""; 
     public string Type { get; set; } = "Distance";
     public string Description { get; set; } = "";
 }
