@@ -17,5 +17,5 @@ GitHub Actions configured for CI/CD. Build runs on push to main.
 ![CI/CD Screenshot](actions-screenshot.png)
 
 ## YouTube Video Presentation (Unlisted)
-Link: https://youtu.be/j-7NXlHWkOU
+Link: https://youtu.be/j-7NXLHWKOU
 Video demonstrates: Running API, Code Structure, Endpoints, Authentication & Roles, Unit Tests.
